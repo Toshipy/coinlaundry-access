@@ -4,15 +4,15 @@
 /*  */
 /* line 12, scss/original.scss */
 h2 {
-  margin-top: 15px;
-  margin-bottom: 15px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /* line 17, scss/original.scss */
 #header {
   border-bottom: 10px solid #39caf7;
-  background-image:url("laundry-saloon-567951_1920.jpg");
-  background-size:cover;
+  background-color:#A0A0A0;
+
   color:#000000;
 }
 
@@ -118,11 +118,11 @@ h2 {
 /* line 112, scss/original.scss */
 .shopphoto .shopphoto_1 .shopphoto_1a {
   width: 100%;
-  padding: 0 10px;
+  padding: 10px 10px;
 }
 /* line 115, scss/original.scss */
 .shopphoto .shopphoto_1 .shopphoto_1a h2 {
-  margin: 20px 0;
+  margin: 5px 0;
 }
 /* line 118, scss/original.scss */
 .shopphoto .shopphoto_1 .shopphoto_1a p {
@@ -148,7 +148,7 @@ h2 {
 }
 /* line 136, scss/original.scss */
 .shopphoto .shopphoto_2 .shopphoto_2a h2 {
-  margin: 20px 0;
+  margin: 5px 0;
 }
 /* line 139, scss/original.scss */
 .shopphoto .shopphoto_2 .shopphoto_2a p {
@@ -163,12 +163,7 @@ h2 {
 }
 
 /*　画面サイズが960pxからはここを読み込む　*/
-@media only screen and (min-width: 1100px) {
-  /* line 156, scss/original.scss */
-  h2 {
-    margin-top: 30px;
-    margin-bottom: 30px;
-  }
+
 
   /* line 163, scss/original.scss */
   #laundry .blue_box a {
@@ -187,7 +182,7 @@ h2 {
   }
   /* line 180, scss/original.scss */
   .shopphoto .shopphoto_1 .shopphoto_1a h2 {
-    margin: 20px 0;
+    margin: 5px 0;
   }
   /* line 183, scss/original.scss */
   .shopphoto .shopphoto_1 .shopphoto_1a p {
@@ -206,11 +201,11 @@ h2 {
   }
   /* line 197, scss/original.scss */
   .shopphoto .shopphoto_2 .shopphoto_2a h2 {
-    margin: 20px 0;
+    margin: 10px 0;
   }
   /* line 200, scss/original.scss */
   .shopphoto .shopphoto_2 .shopphoto_2a p {
-    padding-bottom: 0px;
+    padding-bottom: 10px;
   }
   /* line 204, scss/original.scss */
   .shopphoto .shopphoto_2 .shopphoto_2b {
