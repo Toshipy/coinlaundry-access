@@ -52,7 +52,7 @@ li {
   width: 70%;
   margin: 60px auto;
   padding: 50px;
-  background-color: #F5F5F5;
+  background-color: #FFFFFF;
   color: #333;
 }
 
@@ -210,7 +210,7 @@ element.style {
 /*----*/
 body {
   font-size: 18px;
-  background-color:#C0C0C0;
+  background-color:#FFFFFF;
   color: #000000;
 }
 h1,
@@ -285,8 +285,8 @@ a:hover {
 #map {
   margin-top: -20px;
   min-height: 350px;
-  color: #39caf7;
-  text-shadow: white 2px 2px 0px, white -2px 2px 0px, white 2px -2px 0px, white -2px -2px 0px;
+  color: #000000;
+  
 }
 #map a {
   color: #39caf7;
